@@ -1,0 +1,237 @@
+/* Estilizando o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid hwb(0 87% 11%);
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando rótulos e campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilizando o botão de envio */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilizando mensagens de erro (opcional) */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Estilizando mensagens de sucesso (opcional) */
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Estilo da tabela */
+table {
+    border-collapse: collapse;
+    width: 4%;
+  }
+  
+  table, th, td {
+    border: 1px solid #fdf8f8;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilo das células de cabeçalho */
+  th {
+    background-color: hsl(0, 36%, 5%);
+  }
+  
+  /* Estilo dos links */
+  a {
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+  }
+  
+  /* Estilo dos links quando passam o mouse */
+  a:hover {
+    text-decoration: underline;
+    color: hwb(240 0% 94%);
+  }
+  
+
+
+
+  /* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+/* Estilos de navegação */
+.navbar {
+  background-color: #eeebeb;
+  color: hwb(0 92% 5%);
+  
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+ 
+}
+
+.navbar-nav .nav-link {
+  color: rgb(10, 4, 4);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgb(57, 100, 219);
+}
+
+/* Estilos para o formulário de busca */
+.form-control {
+  width: 300px;
+}
+
+.btn-outline-success {
+  margin-left: 10px;
+}
+
+/* Estilos para o conteúdo principal */
+#content {
+  padding: 20px;
+  background-color: hwb(0 92% 7%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px hsla(0, 33%, 94%, 0.102);
+}
+
+/* Estilos para links */
+a {
+  color: #0d1218;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilizando a tabela */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilizando os links na tabela */
+table a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando a primeira linha (cabeçalho) */
+table tr:first-child {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilizando as linhas alternadas da tabela */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Estilizando o vizualizar
+/* Estilo para o rótulo (label) */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Estilo para a entrada (input) */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: 10px;
+}
+
+/* Estilo para a entrada somente leitura (readonly) */
+input[readonly] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+
+
+/* Exemplo de estilos de texto */
+.texto-bonito {
+  font-family: "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #333;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
